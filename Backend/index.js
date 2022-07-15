@@ -355,6 +355,6 @@ app.get("*", (req, res) => {
 })
 
 
-app.listen("8080", () => {
+app.listen(port = process.env.PORT || 3000, () => {
     console.log("Backend is running smoothly")
 })
