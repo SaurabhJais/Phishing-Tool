@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1200px){
+    #sidebarLinkMain li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    #sidebarLinkMain a li img {
+        padding-right: 0!important;
+    }
+
+    #second{
+        width: 100%!important;
+    }
+}
+
